@@ -2,7 +2,7 @@ version: "3.8"
 services:
   bot:
     build: .
-    command: sh -c "python main.py"
+    command: sh -c "python -m bot"
     env_file:
       - ./.env
     restart: always
